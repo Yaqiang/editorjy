@@ -63,7 +63,7 @@ import javax.swing.text.DefaultStyledDocument;
 import javax.swing.text.MutableAttributeSet;
 import javax.swing.text.SimpleAttributeSet;
 import javax.swing.text.StyleConstants;
-import org.meteothink.io.UnclosableOutputStream;
+import org.meteothink.editor.io.UnclosableOutputStream;
 
 /**
  * A JFC/Swing based console for the BeanShell desktop. This is a descendant of

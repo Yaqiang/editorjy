@@ -11,7 +11,7 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.meteothink.global.util.GlobalUtil;
+import org.meteothink.editor.util.GlobalUtil;
 
 /**
  *

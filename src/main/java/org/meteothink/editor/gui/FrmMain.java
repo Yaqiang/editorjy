@@ -41,21 +41,21 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.WindowConstants;
 import javax.xml.parsers.ParserConfigurationException;
-import org.meteothink.global.colors.ColorMap;
-import org.meteothink.global.colors.ColorUtil;
+import org.meteothink.editor.util.ColorMap;
+import org.meteothink.editor.util.ColorUtil;
 import org.meteothink.editor.Options;
-import org.meteothink.global.util.GlobalUtil;
+import org.meteothink.editor.util.GlobalUtil;
 import org.meteothink.editor.application.AppCollection;
 import org.meteothink.editor.application.Application;
 import org.meteothink.editor.event.ConsoleExecEvent;
 import org.meteothink.editor.event.CurrentPathChangedEvent;
 import org.meteothink.editor.event.IConsoleExecListener;
 import org.meteothink.editor.event.ICurrentPathChangedListener;
-import org.meteothink.legend.LayersLegend;
-import org.meteothink.map.MapView;
+//import org.meteothink.legend.LayersLegend;
+//import org.meteothink.map.MapView;
 import org.meteothink.plugin.IApplication;
 import org.meteothink.plugin.IPlugin;
-import org.meteothink.ui.ColorListCellRender;
+import org.meteothink.editor.ui.ColorListCellRender;
 import org.python.core.PyInstance;
 import org.python.core.PyJavaType;
 import org.python.core.PyList;
@@ -1139,16 +1139,6 @@ public class FrmMain extends javax.swing.JFrame implements IApplication {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-
-    @Override
-    public MapView getMapView() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public LayersLegend getMapDocument() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override

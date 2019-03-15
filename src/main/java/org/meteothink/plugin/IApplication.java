@@ -19,25 +19,12 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JPanel;
 import javax.swing.JProgressBar;
-import org.meteothink.legend.LayersLegend;
-import org.meteothink.map.MapView;
 
 /**
  *
  * @author yaqiang
  */
 public interface IApplication {
-    /**
-     * Get MapView object
-     * @return MapView object
-     */
-    public MapView getMapView();  
-    
-    /**
-     * Get LayersLegend object
-     * @return LayersLegend object
-     */
-    public LayersLegend getMapDocument();
     
     /**
      * Get main menu bar object

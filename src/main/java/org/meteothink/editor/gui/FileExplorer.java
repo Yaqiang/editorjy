@@ -25,8 +25,8 @@ import javax.swing.event.EventListenerList;
 import javax.swing.table.DefaultTableModel;
 import org.meteothink.editor.event.CurrentPathChangedEvent;
 import org.meteothink.editor.event.ICurrentPathChangedListener;
-import org.meteothink.table.IconRenderer;
-import org.meteothink.table.IconText;
+import org.meteothink.editor.ui.IconRenderer;
+import org.meteothink.editor.ui.IconText;
 
 /**
  *

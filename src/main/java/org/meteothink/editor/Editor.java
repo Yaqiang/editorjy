@@ -17,9 +17,9 @@ import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.WindowConstants;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-import org.meteothink.util.DataConvert;
-import org.meteothink.global.util.FontUtil;
-import org.meteothink.global.util.GlobalUtil;
+import org.meteothink.editor.util.DataConvert;
+import org.meteothink.editor.util.FontUtil;
+import org.meteothink.editor.util.GlobalUtil;
 import org.meteothink.editor.gui.FrmMain;
 import org.meteothink.editor.gui.MyPythonInterpreter;
 import org.python.core.Py;
@@ -111,7 +111,7 @@ public class Editor {
     private static void runScript(String args[], String fn, int idx) {
         //String ext = GlobalUtil.getFileExtension(fn);
         //registerFonts();
-        org.meteothink.global.util.FontUtil.registerWeatherFont();
+        FontUtil.registerWeatherFont();
 
         System.out.println("Running Jython script...");
         PySystemState state = new PySystemState();
@@ -215,7 +215,7 @@ public class Editor {
                 }
 
                 //registerFonts();
-                org.meteothink.global.util.FontUtil.registerWeatherFont();
+                FontUtil.registerWeatherFont();
                 FrmMain frame = new FrmMain();
                 frame.setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
                 //frame.setLocationRelativeTo(null);

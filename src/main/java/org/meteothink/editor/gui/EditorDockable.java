@@ -32,7 +32,7 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import org.fife.ui.rsyntaxtextarea.SyntaxConstants;
 import org.fife.ui.rsyntaxtextarea.TextEditorPane;
-import org.meteothink.global.GenericFileFilter;
+import org.meteothink.editor.util.GenericFileFilter;
 import org.meteothink.editor.codecomplete.JIntrospect;
 import org.meteothink.editor.ui.ButtonTabComponent;
 import org.python.util.PythonInterpreter;

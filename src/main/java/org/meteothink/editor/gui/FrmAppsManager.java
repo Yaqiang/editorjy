@@ -17,9 +17,9 @@ import javax.swing.JFrame;
 import javax.xml.parsers.ParserConfigurationException;
 import org.meteothink.editor.application.Application;
 import org.meteothink.editor.application.AppCollection;
-import org.meteothink.global.util.GlobalUtil;
+import org.meteothink.editor.util.GlobalUtil;
 import org.meteothink.plugin.IPlugin;
-import org.meteothink.ui.CheckBoxListEntry;
+import org.meteothink.editor.ui.CheckBoxListEntry;
 import org.python.core.PyObject;
 import org.python.util.PythonInterpreter;
 
@@ -70,7 +70,7 @@ public class FrmAppsManager extends javax.swing.JDialog {
 
         jPanel1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        checkBoxList_Plugin = new org.meteothink.ui.JCheckBoxList();
+        checkBoxList_Plugin = new org.meteothink.editor.ui.JCheckBoxList();
         jButton_UpdateList = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
@@ -347,7 +347,7 @@ public class FrmAppsManager extends javax.swing.JDialog {
         });
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private org.meteothink.ui.JCheckBoxList checkBoxList_Plugin;
+    private org.meteothink.editor.ui.JCheckBoxList checkBoxList_Plugin;
     private javax.swing.JButton jButton_UpdateList;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
