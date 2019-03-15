@@ -1132,13 +1132,13 @@ public class FrmMain extends javax.swing.JFrame implements IApplication {
         }
         this.jComboBox_CurrentFolder.setSelectedItem(path);
 
-        PythonInteractiveInterpreter interp = this.consoleDock.getInterpreter();
-        try {
-            path = path.replace("\\", "/");
-            interp.exec("mipylib.migl.currentfolder = '" + path + "'");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        PythonInteractiveInterpreter interp = this.consoleDock.getInterpreter();
+//        try {
+//            path = path.replace("\\", "/");
+//            interp.exec("mipylib.migl.currentfolder = '" + path + "'");
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
     }
 
     @Override
