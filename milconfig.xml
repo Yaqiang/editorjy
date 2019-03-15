@@ -30,5 +30,5 @@
   <Font>
     <TextFont FontName="宋体" FontSize="15"/>
   </Font>
-  <Startup MainFormLocation="-7,-7" MainFormSize="1293,693"/>
+  <Startup MainFormLocation="8,5" MainFormSize="1186,698"/>
 </MeteoInfo>
