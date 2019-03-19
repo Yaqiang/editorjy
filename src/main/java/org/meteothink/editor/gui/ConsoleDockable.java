@@ -110,6 +110,7 @@ public class ConsoleDockable extends DefaultSingleCDockable {
             path = "C:/jython2.7.1/Lib/site-packages";
             toolboxPath = "D:/MyProgram/Java/MeteoInfoDev/toolbox";
             miPath = "D:/MyProgram/Distribution/Java/MeteoInfo/MeteoInfo";
+            initFn = this.startupPath + File.separator + "init_debug.py";
         }
         //console.println(path);
         //console.println(toolboxPath);
