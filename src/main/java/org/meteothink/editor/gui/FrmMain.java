@@ -87,16 +87,27 @@ public class FrmMain extends javax.swing.JFrame implements IApplication {
      * Creates new form FrmMain
      */
     public FrmMain() {
+        this(null);
+    }
+    
+    /**
+     * Creates new form FrmMain
+     * @param sPath Startup path
+     */
+    public FrmMain(String sPath) {
         initComponents();
 
         boolean isDebug = java.lang.management.ManagementFactory.getRuntimeMXBean().
                 getInputArguments().toString().contains("jdwp");
-        if (isDebug) {
-            this.startupPath = System.getProperty("user.dir");
-        } else {
-            this.startupPath = GlobalUtil.getAppPath(FrmMain.class);
+        if (sPath == null) {
+            if (isDebug) {
+                sPath = System.getProperty("user.dir");
+            } else {
+                sPath = GlobalUtil.getAppPath(FrmMain.class);
+            }
         }
-
+        this.startupPath = sPath;
+        
         //Set icon image
         BufferedImage image = null;
         try {

@@ -18,7 +18,7 @@ import org.meteothink.editor.gui.JTextAreaPrintStream;
 public class StackWindow extends JFrame implements Thread.UncaughtExceptionHandler {
 
     private final JTextArea textArea;
-    JTextAreaPrintStream printStream;
+    public JTextAreaPrintStream printStream;
 
     public StackWindow(
             String title, final int width, final int height) {

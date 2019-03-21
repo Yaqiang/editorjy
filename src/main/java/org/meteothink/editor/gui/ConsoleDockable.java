@@ -117,16 +117,18 @@ public class ConsoleDockable extends DefaultSingleCDockable {
 
         //this.setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
         new Thread(interp).start();
-        try {
-            interp.set("editor_app", parent);
-            //interp.exec("import sys");
-            //interp.exec("sys.path.append('" + path + "')");
-            interp.execfile(initFn);
-        } catch (Exception e) {
-            System.out.println(e.toString());
-            e.printStackTrace();
+        if (isDebug) {
+            try {
+                interp.set("editor_app", parent);
+                //interp.exec("import sys");
+                //interp.exec("sys.path.append('" + path + "')");
+                interp.execfile(initFn);
+            } catch (Exception e) {
+                System.out.println(e.toString());
+                e.printStackTrace();
+            }
+            //this.setCursor(Cursor.getDefaultCursor());
         }
-        //this.setCursor(Cursor.getDefaultCursor());
     }
 
     /**
