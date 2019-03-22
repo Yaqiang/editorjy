@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <MeteoInfo File="milconfig.xml" Type="configurefile">
-  <Path OpenPath="D:\Working\MIScript\Jython\meteothink\meteo">
+  <Path OpenPath="D:\Working\MIScript\Jython\meteothink\ascii">
     <RecentFolder Folder="D:\Working\MIScript\Jython\mis"/>
     <RecentFolder Folder="D:\Working\MIScript\Jython\mis\common_math\linalg"/>
     <RecentFolder Folder="D:\Working\MIScript\Jython\mis\map"/>
@@ -22,15 +22,15 @@
       <OpenedFile File="D:\Working\MIScript\Jython\meteothink\surf_2.py"/>
       <OpenedFile File="D:\Working\MIScript\Jython\meteothink\scatter3_1.py"/>
       <OpenedFile File="D:\Working\MIScript\Jython\meteothink\surf_6.py"/>
-      <OpenedFile File="D:\Working\MIScript\Jython\meteothink\map\imagelayer_1.py"/>
-      <OpenedFile File="D:\Working\MIScript\Jython\meteothink\meteo\anomalies.py"/>
+      <OpenedFile File="D:\Working\MIScript\Jython\meteothink\array\dataframe_read_table_2.py"/>
+      <OpenedFile File="D:\Working\MIScript\Jython\meteothink\ascii\asciiread.py"/>
     </OpenedFiles>
     <RecentFiles>
       <RecentFile File="D:\Working\MIScript\Jython\meteothink\surf_2.py"/>
       <RecentFile File="D:\Working\MIScript\Jython\meteothink\scatter3_1.py"/>
       <RecentFile File="D:\Working\MIScript\Jython\meteothink\surf_6.py"/>
-      <RecentFile File="D:\Working\MIScript\Jython\meteothink\map\imagelayer_1.py"/>
-      <RecentFile File="D:\Working\MIScript\Jython\meteothink\meteo\anomalies.py"/>
+      <RecentFile File="D:\Working\MIScript\Jython\meteothink\array\dataframe_read_table_2.py"/>
+      <RecentFile File="D:\Working\MIScript\Jython\meteothink\ascii\asciiread.py"/>
     </RecentFiles>
   </File>
   <Font>
