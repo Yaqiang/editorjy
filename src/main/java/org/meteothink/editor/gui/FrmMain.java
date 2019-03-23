@@ -111,7 +111,7 @@ public class FrmMain extends javax.swing.JFrame implements IApplication {
         //Set icon image
         BufferedImage image = null;
         try {
-            image = ImageIO.read(this.getClass().getResource("/images/MeteoLab_32.png"));
+            image = ImageIO.read(this.getClass().getResource("/images/editor_16.png"));
         } catch (Exception e) {
         }
         this.setIconImage(image);
