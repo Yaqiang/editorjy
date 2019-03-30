@@ -5,6 +5,7 @@ libpaths.append("D:/MyProgram/java/MeteoThinkDev/NumJy")
 libpaths.append("D:/MyProgram/java/MeteoThinkDev/PlotJy")
 libpaths.append("D:/MyProgram/java/MeteoThinkDev/DataframeJy")
 libpaths.append("D:/MyProgram/java/MeteoThinkDev/DatasetJy")
+libpaths.append("D:/MyProgram/java/MeteoThinkDev/MetJy")
 for libpath in libpaths:
     if not libpath in sys.path:
         sys.path.append(libpath)

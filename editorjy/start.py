@@ -38,3 +38,11 @@ def clear():
     """
     if not editor_app is None:
         editor_app.delVariables()
+        
+def gc_collect():
+    '''
+    Clear variables and release memory
+    '''
+    clear()
+    import gc
+    gc.collect()
