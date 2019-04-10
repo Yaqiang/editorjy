@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <MeteoInfo File="milconfig.xml" Type="configurefile">
-  <Path OpenPath="D:\Working\MIScript\Jython\meteothink\array">
-    <RecentFolder Folder="D:\Working\MIScript\Jython\mis\onedim"/>
+  <Path OpenPath="D:\Working\MIScript\Jython\meteothink\map">
     <RecentFolder Folder="D:\Working\MIScript\Jython\mis\plot_types"/>
     <RecentFolder Folder="D:\Working\MIScript\Jython\mis\plot_types\3d"/>
     <RecentFolder Folder="D:\Working\MIScript\Jython"/>
@@ -16,21 +15,18 @@
     <RecentFolder Folder="D:\Working\MIScript\Jython\meteothink\test"/>
     <RecentFolder Folder="D:\Working\MIScript\Jython\meteothink\plot_types"/>
     <RecentFolder Folder="D:\Working\MIScript\Jython\meteothink\plot_types\3d"/>
+    <RecentFolder Folder="D:\Working\MIScript\Jython\meteothink\map\projection"/>
   </Path>
   <File>
     <OpenedFiles>
       <OpenedFile File="D:\Working\MIScript\Jython\meteothink\surf_6.py"/>
-      <OpenedFile File="D:\Working\MIScript\Jython\meteothink\plot_types\air_path_3d.py"/>
-      <OpenedFile File="D:\Working\MIScript\Jython\meteothink\plot_types\3d\quiver_1.py"/>
-      <OpenedFile File="D:\Working\MIScript\Jython\meteothink\array\view_1.py"/>
-      <OpenedFile File="D:\Working\MIScript\Jython\meteothink\array\argsort_2.py"/>
+      <OpenedFile File="D:\Working\MIScript\Jython\meteothink\map\projection\geos_proj.py"/>
+      <OpenedFile File="D:\Working\MIScript\Jython\meteothink\map\add_circle.py"/>
     </OpenedFiles>
     <RecentFiles>
       <RecentFile File="D:\Working\MIScript\Jython\meteothink\surf_6.py"/>
-      <RecentFile File="D:\Working\MIScript\Jython\meteothink\plot_types\air_path_3d.py"/>
-      <RecentFile File="D:\Working\MIScript\Jython\meteothink\plot_types\3d\quiver_1.py"/>
-      <RecentFile File="D:\Working\MIScript\Jython\meteothink\array\view_1.py"/>
-      <RecentFile File="D:\Working\MIScript\Jython\meteothink\array\argsort_2.py"/>
+      <RecentFile File="D:\Working\MIScript\Jython\meteothink\map\projection\geos_proj.py"/>
+      <RecentFile File="D:\Working\MIScript\Jython\meteothink\map\add_circle.py"/>
     </RecentFiles>
   </File>
   <Font>
